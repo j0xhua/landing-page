@@ -16,8 +16,9 @@
 }
 body{
     background-attachment: fixed;
-    background-image: url(../../images/wallpaper.png);
+    background-image: url(../../images/medium-city.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     font-family: "Muli", sans-serif;
     margin: auto;
@@ -38,14 +39,32 @@ p{
     margin-top: 4px;
 }
 #avatar img{
-    border-radius: 20px;
+    border-radius: 50%;
     height: 200px;
     margin-top: 5%;
 }
 #content{
-    margin-top: 3%;
+    margin-top: 2%;
     width: 60%;
+    /*border: 5px dotted white*/
+
 }
+
+#content-intro {
+    /*border: 5px dotted blue;*/
+    margin-bottom: 15px;
+}
+
+#content-about-me {
+    /*border: 5px dotted blue;*/
+    margin-bottom: 15px;
+}
+
+#content-projects {
+    /*border: 5px dotted blue;*/
+    margin-bottom: 15px;
+}
+
 #social{
     left: 50%;
     margin-top: 5%;
